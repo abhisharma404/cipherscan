@@ -17,7 +17,7 @@ from tlslite.errors import TLSAbruptCloseError, TLSIllegalParameterException
 
 
 class HandshakeParser(object):
-    """Inteligent parser for handshake messages."""
+    """Intelligent parser for handshake messages."""
 
     def __init__(self, version=(3, 1),
                  cipher_suite=CipherSuite.TLS_DHE_RSA_WITH_AES_128_CBC_SHA,
